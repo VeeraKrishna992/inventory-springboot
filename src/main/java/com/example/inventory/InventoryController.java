@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class InventoryController {
     @GetMapping("/api/inventory")
     public List<Map<String, Object>> inventory() {
-        return List.of(Map.of("id", 1, "item", "Laptop", "quantity", 100),
+        return List.of(Map.of("id", 1, "item", "Laptop", "quantity", 200),
                        Map.of("id", 2, "item", "Mouse", "quantity", 250),
                        Map.of("id", 3, "item", "Keyboard", "quantity", 150));
     }
